@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 0 2.5%;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: solid 4px black;
+  display: inline-block;
+}
+
+.box:hover {
+  border-color: red;
+}
+
+#board {
+  width: 400px;
+}
+
+.btn {
+  display: block;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 400px;
+}
